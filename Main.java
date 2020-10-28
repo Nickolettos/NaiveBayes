@@ -55,6 +55,13 @@ public class Main {
 						f.dispose();
 					}
 				});
+
+				trainButton.addActionListener(actionEvent -> {
+					String fileName = fileInput.getText();
+					NB nb = new NB();
+					nb.parse(fileName);
+					f.dispose();
+				});
 			}
 		});
 	}
