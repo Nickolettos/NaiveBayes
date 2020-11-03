@@ -1,6 +1,6 @@
 # NaiveBayes
-340 Project 2 Naïve Bayes Classification
-![NaiveBayes](<picture1.png>)</br>
+340 Project 2 Naïve Bayes Classification</br>
+![NaiveBayes](<Picture1.png>)</br>
 P(h): independent probability of h: prior probability</br>
 P(D): independent probability of D</br>
 P(D|h): conditional probability of D given h</br>
