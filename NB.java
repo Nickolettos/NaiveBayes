@@ -13,10 +13,7 @@ public class NB {
 	private Data trainingData;
 	private Data testData;
 	
-	public NB() {
-		
-		
-	}
+	public NB() { }
 	
 	public void parse(String filename) {
 		File file= new File(filename);
@@ -39,13 +36,6 @@ public class NB {
 					throw new FileNotFoundException("File Extension Not Supported");
 			}
 
-//			while(scan.hasNextLine()) {
-//				String line= scan.nextLine();
-//				System.out.println(line);//print to console for testing
-//				String[]items= line.split(",");
-//				classification= items[6];
-//				System.out.println("Classication: "+ classification);
-//			}
 		} catch (FileNotFoundException e) {
 			
 			e.printStackTrace();
@@ -87,6 +77,7 @@ public class NB {
 
 	private Data populateData(String fileName){
 		List<List<String>> d = new ArrayList<>();
+		List<ProbabilityTable> p = new ArrayList<>();
 
 		try{
 			BufferedReader reader = new BufferedReader(new FileReader(fileName));
@@ -107,5 +98,16 @@ public class NB {
 
 		return null;
 	}
-	
+
+	public void provideClassification(String inputFileName, String outputFileName){
+		Data inputData = populateData(inputFileName);
+
+		for(List<String> lst : inputData.getData()){
+
+		}
+	}
+
+	public void printAccuracy(){
+
+	}
 }
