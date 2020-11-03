@@ -1,6 +1,6 @@
 # NaiveBayes
 340 Project 2 Naïve Bayes Classification
-
+![Naive Bayes](picture1.png?raw=true "NB")
 ## Objectives: 
 1. Read and Train the system
 2. Provide classifications from a given file
