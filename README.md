@@ -1,6 +1,11 @@
 # NaiveBayes
 340 Project 2 Naïve Bayes Classification
-![Naive Bayes](picture1.png?raw=true "NB")
+![NaiveBayes](<picture1.png>)</br>
+P(h): independent probability of h: prior probability</br>
+P(D): independent probability of D</br>
+P(D|h): conditional probability of D given h</br>
+P(h|D): conditional probability of h given D: posterior probability</br>
+
 ## Objectives: 
 1. Read and Train the system
 2. Provide classifications from a given file
